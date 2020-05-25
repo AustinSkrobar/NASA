@@ -1,0 +1,37 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-image: url(apod.jpg);
+    color: white;
+    margin-bottom: 30px;
+    
+}
+
+section{ 
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+article {
+    width:270px;
+    height:374px;
+    padding-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 80px;
+}
